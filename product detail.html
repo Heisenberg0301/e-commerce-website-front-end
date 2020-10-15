@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>product details</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+		<a href="index.html"><img src="images/logo.png" width="150px"></a>
+	</div>
+	<nav class="list">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="products.html">products</a></li>
+			<li><a href="">about us</a></li>
+			<li><a href="">Account</a></li>
+		</ul>
+		<img src="images/cart.png" width="20px" height="20px">
+	</nav> 
+		 
+
+	</div>
+	 <div class="row">
+	 	<div class="rowcol-2">
+	 		<div class="one">
+	 		<img src="images/gallery-1.jpg" width=100% id="proimg"></div>
+	 		<div class="small-row">
+	 		<div class="small-images">
+	 		<img src="images/gallery-1.jpg" class="litimg" >
+	 	</div>
+	 		<div class="small-images">
+	 		<img src="images/gallery-2.jpg" class="litimg" >	 	
+	 	</div>
+	 	<div class="small-images">
+	 		<img src="images/gallery-3.jpg" class="litimg" >
+	 	</div>
+	 	<div class="small-images">
+	 		<img src="images/gallery-4.jpg" class="litimg">
+
+	 	
+
+	 		</div>
+	 	</div>
+	 </div>
+	 	
+	 
+	 	<div class="rowcol-2">
+	 		<h1>Printed red shirt</h1>
+	 		<h2><b>50.00 rs</b></h2>
+	 		<h3>Product details</h3>
+	 		<p> give your summer wardrobe a style upgrade with the HRX men's T-shirt .Team  it with a pair of shorts for your morning workout or a denims for an evening out with the guys</p> 
+	 		<br>
+	 		<br>
+	 		<select>
+	 			<option>Size</option>
+	 			<option>XXL</option>
+	 			<option>XL</option>
+	 			<option>large</option>
+	 			<option>medium</option>
+	 			<option>small</option>
+	 		</select>
+	 		
+	 		<input type="number" value="1">
+	 		<a href="" class="button">  add to cart  </a>
+
+	 	</div>
+	</div>
+</div>
+
+</div>
+
+<!------------------javascript--------------->
+<script>
+	var proimg=document.getElementById("proimg");
+	var litimg=document.getElementByClassName("litimg");
+	litimg[0].onclick=function()
+	{
+		proimg.src=litimg[0].src;
+	}
+	litimg[1].onclick=function()
+	{
+		proimg.src=litimg[1].src;
+	}
+	litimg[2].onclick=function()
+	{
+		pro-mg.src=litimg[2].src;
+	}
+	litimg[3].onclick=function()
+	{
+		proimg.src=litimg[3].src;
+	}
+</script>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download our App</h3>
+			</div>
+			<div class="footer-col-2">
+				<img src="images/logo-white.png">
+			</div>
+			<div class="footer-col-3">
+				<h3>useful links</h3>
+				<ul>
+					<li>coupons</li>
+					<li>Blog post</li>
+					<li>return policy</li>
+				</ul>
+			</div>
+			<div class="footer-col-3">
+				<h3>follow us</h3>
+				<ul>
+					<li>facebook</li>
+					<li>twitter</li>
+					<li>instagram</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
